@@ -4,9 +4,7 @@
     "scripts": {
         "diff": "./scripts/diff.js",
         "link-local": "yalc link",
-        "presubmit": "ts-node presubmit.ts",
-        "dev": "parcel index.html",
-        "build": "parcel build index.html"
+        "presubmit": "ts-node presubmit.ts"
     },
     "devDependencies": {
         "@types/jasmine": "^3.4.0",
@@ -30,6 +28,7 @@
     "author": "Nannim David Dandam <dandamnannim125@gmail.com>",
     "dependencies": {
         "@tensorflow/tfjs": "^2.0.0",
-        "@tensorflow/tfjs-node": "^2.0.0"
+        "@tensorflow/tfjs-node": "^2.0.0",
+        "@tensorflow/tfjs-vis": "^1.4.0"
     }
 }
